@@ -1,0 +1,145 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --blue: #363958;
+  --orange: #fa804c;
+  --text: #3e3e3e;
+}
+
+/* Global CSS */
+.text {
+  font-size: 16px;
+  color: var(--text);
+}
+.banner-title {
+  font-family: "Bebas Neue", cursive;
+}
+.section-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+.blue {
+  color: var(--blue);
+}
+.orange {
+  color: var(--orange);
+}
+section {
+  padding: 100px 0;
+}
+.cart-icon {
+  width: 24px;
+}
+.nike-btn {
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  padding: 16px 34px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.nike-btn:hover {
+  background: #3d4ff3;
+}
+
+/* ***** Navbar ******/
+.navbar-brand img {
+  width: 290px;
+}
+.nav-link {
+  font-size: 20px;
+}
+
+/* Banner */
+.banner-right h2 {
+  font-size: 80px;
+}
+.banner-right p {
+  max-width: 357px;
+}
+
+/* Shoe Section */
+.single-shoe {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.shoe-title {
+  font-size: 24px;
+  color: var(--blue);
+  font-weight: 700;
+}
+.price h4 {
+  font-size: 36px;
+  color: var(--orange);
+  font-weight: 900;
+}
+.img-thumb {
+  background: #f1f1f1;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.img-thumb img {
+  height: 262px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Shoping Section */
+.details-img img {
+  max-width: 80px;
+}
+.details-text h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.details-text p {
+  max-width: 276px;
+}
+.shoping-right img {
+  width: 600px;
+}
+
+/* Responsive for Tablet devices */
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 190px;
+  }
+  .section-title {
+    font-size: 36px;
+  }
+  .details-text p {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-right h2 {
+    font-size: 60px;
+  }
+}
